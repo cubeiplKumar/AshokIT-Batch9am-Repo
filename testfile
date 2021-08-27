@@ -10,3 +10,6 @@ public static void sampleMethod(int a, int b) throws ArithmeticException{
         int c = a/b; //  int c = 4/2 which gets calculated as 2 
         System.out.println("c:"+c); // c: 2
    } 
+   
+   -Webhooks allow you to build or set up integrations, such as GitHub Apps or OAuth Apps, which subscribe to certain events on GitHub.com. 
+-When one of those events is triggered, we'll send a HTTP POST payload to the webhook's configured URL. 
