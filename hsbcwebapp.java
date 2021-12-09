@@ -29,9 +29,10 @@ public class FunctionCall {
 	return param * 2;
     }
 	#feature301 changes by mahender
-	public static void main (String[] args){
-    DemoClass.sampleMethod(4,2);    
-		System.out.println("feature301 changes done ");
- }
+	public static void sampleMethod(int a, int b) throws ArithmeticException{
+        System.out.println("Hello, this is sample method");
+        int c = a/b; //  int c = 4/2 which gets calculated as 2 
+        System.out.println("c:"+c); // c: 2
+   } 
 
 }
