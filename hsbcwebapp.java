@@ -30,7 +30,8 @@ public class FunctionCall {
     }
 	#feature301 changes by mahender
 	public static void main (String[] args){
-    DemoClass.sampleMethod(4,2);     
+    DemoClass.sampleMethod(4,2);    
+		System.out.println("feature301 changes done ");
  }
 
 }
