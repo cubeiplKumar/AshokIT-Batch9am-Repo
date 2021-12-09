@@ -28,6 +28,7 @@ public class FunctionCall {
 	System.out.println ("Inside funct2 with param " + param);
 	return param * 2;
     }
+
 	#feature302 changes by vivek
 	JNIEXPORT void JNICALL
 Java_Callbacks_nativeMethod(JNIEnv *env, jobject obj, jint depth)
@@ -41,4 +42,13 @@ Java_Callbacks_nativeMethod(JNIEnv *env, jobject obj, jint depth)
     (*env)->CallVoidMethod(env, obj, mid, depth);
     printf("In C, depth = %d, back from Java\n", depth);
 }
+
+	#feature301 changes by mahender
+	public static void sampleMethod(int a, int b) throws ArithmeticException{
+        System.out.println("Hello, this is sample method");
+        int c = a/b; //  int c = 4/2 which gets calculated as 2 
+        System.out.println("c:"+c); // c: 2
+   } 
+
+
 }
