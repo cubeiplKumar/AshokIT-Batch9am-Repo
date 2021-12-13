@@ -1,2 +1,19 @@
-second changes
-On Linux or Mac OS X you can unzip ngrok from a terminal with the following command. On Windows, just double click ngrok.zip to extract it.
+On Linux or Mac OS X you can unzip ngrok from a terminal with the following command. On Windows, just double click ngrok.zip to extract it.
+New changes 
+Workshops on the following
+
+Agile
+DevOps
+AWS
+Cloud Computing new Trends 2021
+Azure
+GCP
+
+Second commit changes
+DevOps Project
+New DevOps Webinar 2021 on 17th Dec, 2021
+
+
+
+
+
